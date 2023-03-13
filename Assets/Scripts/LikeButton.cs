@@ -10,14 +10,12 @@ public class LikeButton : MonoBehaviour
     
 
     void Start(){
-        // text.text="WHAT THE";
     }
     public void OnClick(){
         // gameObject.SetActive(false);
         // text.gameObject.SetActive(!text.gameObject.active);
         counter += 1;
         text.text = counter.ToString();
-        // text.text="WHAT THE FUCK";
         Debug.Log(counter);    
         
     }
